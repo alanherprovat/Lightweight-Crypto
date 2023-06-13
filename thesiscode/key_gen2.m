@@ -194,14 +194,22 @@ end
     K6=reshape(tk6.',1,[]);
     K8=reshape(tk8.',1,[]);
     
-    K1=fun(K1);
-    K2=fun2(K2);
-    K3=fun(K3);
-    K4=fun2(K4);
+%     K1=fun(K1);
+%     K2=fun2(K2);
+%     K3=fun(K3);
+%     K4=fun2(K4);
+%     K5=fun(K5);
+%     K6=fun2(K6);
+%     K7=fun(K7);
+%     K8=fun2(K8);
+    K1=f_fun(K1);
+    K2=f_fun(K2);
+    K3=f_fun(K3);
+    K4=fun(K4);
     K5=fun(K5);
-    K6=fun2(K6);
-    K7=fun(K7);
-    K8=fun2(K8);
+    K6=f_fun(K6);
+    K7=f_fun(K7);
+    K8=f_fun(K8);
     
     
     
